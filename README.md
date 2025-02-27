@@ -3,6 +3,7 @@
 
 ## Missing File Fix
 
+```
 DONDOU@DESKTOP-RJPSVMO MINGW64 ~/Desktop/git_advanced (main)
 $ git status
 On branch main
@@ -33,4 +34,7 @@ $ git commit --amend -m "chore: Create third and fourth files"
  2 files changed, 0 insertions(+), 0 deletions(-)  
  create mode 100644 test3.md
  create mode 100644 test4.md
+
+```
+
 
