@@ -93,3 +93,22 @@ pick 39e2de0 The second commit changed and the README.md updated
 
 
 ```
+
+## Challenge 4: Splitting a commit 
+
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git reset HEAD~1
+Unstaged changes after reset:
+M       test2.md
+gymicyerekezo@icyerekezos-iMac git_advanced % git add test3.md
+gymicyerekezo@icyerekezos-iMac git_advanced % git commit -m'chore: Create third file'
+On branch main
+Your branch is behind 'origin/main' by 4 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+        modified:   test2.md
+
+no changes added to commit
+gymicyerekezo@icyerekezos-iMac git_advanced % 
+```
