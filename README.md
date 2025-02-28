@@ -38,3 +38,37 @@ $ git commit --amend -m "chore: Create third and fourth files"
 ```
 
 
+## Challenge 2: Editing Commit History
+
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git rebase -i HEAD~2
+[detached HEAD 2fb8e4801da81c8c8e15d6cc3afd275fccd8f2b6] chore: Create another file
+ Date: Fri Feb 28 11:33:32 2025 +0200
+ 1 file changed, 1 insertion(+)
+Successfully rebased and updated refs/heads/main.
+gymicyerekezo@icyerekezos-iMac git_advanced % 
+
+
+gymicyerekezo@icyerekezos-iMac git_advanced % git log
+commit fe110c2e191c7daee924470de904803429f55ce6 (HEAD -> main)
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Fri Feb 28 11:33:32 2025 +0200
+
+    Chore: Create third and fourth files
+
+commit 2fb8e4801da81c8c8e15d6cc3afd275fccd8f2b6
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Fri Feb 28 11:33:32 2025 +0200
+
+    chore: Create another file
+    
+    Change the another file to second file
+
+commit 021b234eae8bdca981abc41f6d966e3809cc8bb2
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Fri Feb 28 11:33:32 2025 +0200
+
+    chore: Create initial file
+```
+
+## Challenge 3: Keeping History Tidy-Squashing Commits
