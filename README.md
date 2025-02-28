@@ -72,3 +72,24 @@ Date:   Fri Feb 28 11:33:32 2025 +0200
 ```
 
 ## Challenge 3: Keeping History Tidy-Squashing Commits
+
+```
+pick 5bc10b2 chore: Create initial file
+squash 172f779 chore: Create second file
+pick 56cba11 chore: Create third and fourth files
+pick 9df44b3 Update README.md
+pick 0db89bf Update README.md
+pick b2e4167 chore: Create initial file
+pick 2b4d247 Chore: Create third and fourth files
+pick 39e2de0 The second commit changed and the README.md updated
+
+# Rebase 22a562e..39e2de0 onto 22a562e (8 commands)
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+
+
+```
