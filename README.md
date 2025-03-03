@@ -112,3 +112,28 @@ Changes not staged for commit:
 no changes added to commit
 gymicyerekezo@icyerekezos-iMac git_advanced % 
 ```
+
+
+pick 785b42b challenge 4 done
+pick 021b234 chore: Create initial file
+squash 2fb8e48 chore: Create another file
+pick fe110c2 Chore: Create third and fourth files
+
+
+## Advanced
+```
+
+# Rebase 746ebef..859e61c onto 746ebef (4 commands)
+#
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+#
+-- INSERT --
+
+```
