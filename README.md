@@ -120,7 +120,7 @@ squash 2fb8e48 chore: Create another file
 pick fe110c2 Chore: Create third and fourth files
 
 
-## Advanced
+## challenge 5: Advanced Squashing
 ```
 
 # Rebase 746ebef..859e61c onto 746ebef (4 commands)
@@ -136,4 +136,26 @@ pick fe110c2 Chore: Create third and fourth files
 #
 -- INSERT --
 
+```
+
+## Challlenge 6: Dropping a Commit
+
+```
+pick 172f779 chore: Create another file
+pick 56cba11 chore: Create third and fourth files
+pick 9df44b3 Update README.md
+pick 0db89bf Update README.md
+pick b2e4167 chore: Create initial file
+pick 2b4d247 Chore: Create third and fourth files
+pick 39e2de0 The second commit changed and the README.md updated
+pick 746ebef Challenge 3 done by changing pick to squash for thr commit  Create second file
+pick 785b42b challenge 4 done
+pick 021b234 chore: Create initial file
+pick 2fb8e48 chore: Create another file
+pick fe110c2 Chore: Create third and fourth files
+pick 7b762a9 the advanced squashing
+drop 9d7b9ee unwanted commit message
+
+# Rebase 5bc10b2..9d7b9ee onto 5bc10b2 (14 commands)
+-- INSERT --
 ```
