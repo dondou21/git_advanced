@@ -194,4 +194,60 @@ commit 859e61c2d9e7f86c17a9e1b94e83e71b28341a83
 Merge: 785b42b a1b01cc
 Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
 Date:   Fri Feb 28 12:32:27 2025 +0200
+
 ```
+### After Reordering
+
+```
+
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Wed Mar 5 10:47:56 2025 +0200
+
+    Begin of challenge 7
+
+commit ca20204c8e5f287c96a322aabd45c05fa858d513
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Mon Mar 3 17:12:50 2025 +0200
+
+    unwanted commit message
+
+commit 86a5b719f6e3ca80a49985de75a1263794b1f8fd
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Mon Mar 3 17:17:52 2025 +0200
+
+    Challelnge 6: Dropping Commit
+
+commit 7b762a991413102f49d02607245a84ce107e8951 (origin/part1)
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Mon Mar 3 16:47:43 2025 +0200
+
+    the advanced squashing
+
+commit 785b42b262823bbf02b6472b7b133b295ee57f26
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Fri Feb 28 12:31:45 2025 +0200
+
+    challenge 4 done
+
+commit 746ebefff549986c80ae912d3bb4bbeef3121ede
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+
+nothing to commit, working tree clean
+Could not apply fe110c2... Chore: Create third and fourth files
+gymicyerekezo@icyerekezos-iMac git_advanced % git rebase -i HEAD~14
+
+It seems that there is already a rebase-merge directory, and
+I wonder if you are in the middle of another rebase.  If that is the
+case, please try
+        git rebase (--continue | --abort | --skip)
+If that is not the case, please
+        rm -fr "/Users/gymicyerekezo/Documents/git_advanced/.git/rebase-merge"
+and run me again.  I am stopping in case you still have something
+valuable there.
+gymicyerekezo@icyerekezos-iMac git_advanced % git rebase --skip    
+Successfully rebased and updated refs/heads/challenge7.
+gymicyerekezo@icyerekezos-iMac git_advanced % git log
+
+```
+
+ 
