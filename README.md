@@ -310,3 +310,109 @@ PS C:\Users\DONDOU\Desktop\git_advanced> git cherry-pick --continue
  1 file changed, 1 insertion(+)
 PS C:\Users\DONDOU\Desktop\git_advanced>
 ```
+
+## Challenge 9: visualization Commit History (Bonus)
+
+```
+
+PS C:\Users\DONDOU\Desktop\git_advanced> git log --graph
+* commit ddc749901f7fedd28381d24a65b93d75fad3fd1f (HEAD -> main, origin/main, origin/ft/branch, origin/HEAD, ft/branch)
+| Author: dondou21 <dondouabiyi@gmail.com>
+| Date:   Wed Mar 5 12:08:58 2025 +0200
+|
+|     Challenge 8 done (cherry-picking commit)
+|
+* commit 5ae1ea009c60b1e3277b929746bfd1030b30cdae
+| Author: dondou21 <dondouabiyi@gmail.com>
+| Date:   Wed Mar 5 11:58:01 2025 +0200
+|
+|     Implementation of test5.md
+|
+* commit 3e4982733353ff74db146a12624d47933f0bb49d
+| Author: dondou21 <dondouabiyi@gmail.com>
+| Date:   Wed Mar 5 11:58:01 2025 +0200
+| 
+|     Implementation of test5.md
+|
+*   commit 4e1ebecaa5b28d69f94d1e96e46d316345a03a24 (origin/challenge7, challenge7)
+|\  Merge: c3473fb 168ab17
+| | Author: dondou21 <dondouabiyi@gmail.com>
+| | Date:   Wed Mar 5 11:41:30 2025 +0200
+| |
+| |     Merge branch 'main' of https://github.com/dondou21/git_advanced into challenge7
+| |
+| * commit 168ab17b0d14891b96b062ab3ccb55df0ac38a2f
+| | Author: dondou21 <dondouabiyi@gmail.com>
+| | Date:   Wed Mar 5 11:24:44 2025 +0200
+| |
+| |     Pull request done successfully
+| |
+| *   commit c41a62cf45778c1c1f63c1a0f7173d49a72ab3fb
+| |\  Merge: 5574060 26560b4
+| | | Author: dondou21 <dondouabiyi@gmail.com>
+| | | Date:   Wed Mar 5 11:22:58 2025 +0200
+| | |
+| | |     Merge branch 'main' of https://github.com/dondou21/git_advanced
+| | |
+| | * commit 26560b48858e9fef7631a9e27b1d3f556da92434
+| | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | Date:   Mon Mar 3 17:17:52 2025 +0200
+| | |
+| | |     Challelnge 6: Dropping Commit
+| | |
+| | * commit 9d7b9eee5294c1a41fc2de1573f9e0fcb2716f26
+| | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | Date:   Mon Mar 3 17:12:50 2025 +0200
+| | |
+| | |     unwanted commit message
+| | |   
+| | *   commit bc2b32911dbefdc80d8dd3784f89a862c92290c0
+| | |\  Merge: 859e61c 7b762a9
+| | | | Author: Dondou <106757087+dondou21@users.noreply.github.com>
+| | | | Date:   Mon Mar 3 17:03:04 2025 +0200
+| | | | 
+| | | |     Merge pull request #1 from dondou21/part1
+| | | |
+| | | |     the advanced squashing
+| | | |
+| | * |   commit 859e61c2d9e7f86c17a9e1b94e83e71b28341a83
+| | |\ \  Merge: 785b42b a1b01cc
+| | | | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | | | Date:   Fri Feb 28 12:32:27 2025 +0200
+| | | | | 
+| | | | |     Merge branch 'main' of https://github.com/dondou21/git_advanced into main
+| | | | |
+| | | | |     The fourth challenge done
+| | | | |
+| | | * |   commit a1b01cc0e8ba1901fc15eaad6b6472b13643169c
+| | | |\ \  Merge: 746ebef fe110c2
+| | | | | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | | | | Date:   Fri Feb 28 12:11:29 2025 +0200
+| | | | | |
+| | | | | |     Challenge 3 done by changing pick to squash for thr commit  Create second file
+| | | | | |
+| | | | * | commit fe110c2e191c7daee924470de904803429f55ce6
+| | | | | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | | | | Date:   Fri Feb 28 11:33:32 2025 +0200
+| | | | | | 
+| | | | | |     Chore: Create third and fourth files
+| | | | | |
+| | | | * | commit 2fb8e4801da81c8c8e15d6cc3afd275fccd8f2b6
+| | | | | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | | | | Date:   Fri Feb 28 11:33:32 2025 +0200
+| | | | | | 
+| | | | | |     chore: Create another file
+| | | | | |     
+| | | | | |     Change the another file to second file
+| | | | | |
+| | | | * | commit 021b234eae8bdca981abc41f6d966e3809cc8bb2
+| | | | | | Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+| | | | | | Date:   Fri Feb 28 11:33:32 2025 +0200
+| | | | | | 
+| | | | | |     chore: Create initial file
+| | | | | | 
+| * | | | | commit 55740607f94418decca02e391541e41a9e57b14c
+| | | | | | Author: dondou21 <dondouabiyi@gmail.com>
+
+```
+
