@@ -160,9 +160,11 @@ drop 9d7b9ee unwanted commit message
 -- INSERT --
 ```
 
+## Challenge 7: Reordering Commits
 
-
+### Before Reordering
 ```
+
 commit 26560b48858e9fef7631a9e27b1d3f556da92434 (HEAD -> challenge7, origin/main, origin/HEAD, main)
 Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
 Date:   Mon Mar 3 17:17:52 2025 +0200
@@ -231,7 +233,9 @@ Date:   Fri Feb 28 12:31:45 2025 +0200
 
 commit 746ebefff549986c80ae912d3bb4bbeef3121ede
 Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
-
+```
+### The Input
+```
 nothing to commit, working tree clean
 Could not apply fe110c2... Chore: Create third and fourth files
 gymicyerekezo@icyerekezos-iMac git_advanced % git rebase -i HEAD~14
