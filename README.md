@@ -255,5 +255,58 @@ gymicyerekezo@icyerekezos-iMac git_advanced % git log
 
 ```
 
- 
-3e49827
+## Challenge 8: Cherry-picking Commits
+
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git rebase -i HEAD~18
+error: Your local changes to the following files would be overwritten by checkout:
+        README.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+error: could not detach HEAD
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced> git cherry-pick 3e49827 
+You are currently cherry-picking commit 3e49827.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+PS C:\Users\DONDOU\Desktop\git_advanced> git cherry-pick --continue
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+PS C:\Users\DONDOU\Desktop\git_advanced> git add .
+PS C:\Users\DONDOU\Desktop\git_advanced> git cherry-pick --continue
+[ft/branch 5ae1ea0] Implementation of test5.md
+ Date: Wed Mar 5 11:58:01 2025 +0200
+ 1 file changed, 1 insertion(+)
+PS C:\Users\DONDOU\Desktop\git_advanced>
+```
