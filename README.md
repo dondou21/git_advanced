@@ -159,3 +159,39 @@ drop 9d7b9ee unwanted commit message
 # Rebase 5bc10b2..9d7b9ee onto 5bc10b2 (14 commands)
 -- INSERT --
 ```
+
+
+
+```
+commit 26560b48858e9fef7631a9e27b1d3f556da92434 (HEAD -> challenge7, origin/main, origin/HEAD, main)
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Mon Mar 3 17:17:52 2025 +0200
+
+    Challelnge 6: Dropping Commit
+
+commit 9d7b9eee5294c1a41fc2de1573f9e0fcb2716f26
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Mon Mar 3 17:12:50 2025 +0200
+
+    unwanted commit message
+
+commit bc2b32911dbefdc80d8dd3784f89a862c92290c0
+Merge: 859e61c 7b762a9
+Author: Dondou <106757087+dondou21@users.noreply.github.com>
+Date:   Mon Mar 3 17:03:04 2025 +0200
+
+    Merge pull request #1 from dondou21/part1
+    
+    the advanced squashing
+
+commit 7b762a991413102f49d02607245a84ce107e8951 (origin/part1)
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Mon Mar 3 16:47:43 2025 +0200
+
+    the advanced squashing
+
+commit 859e61c2d9e7f86c17a9e1b94e83e71b28341a83
+Merge: 785b42b a1b01cc
+Author: Babrah <[dondouabiyi@gmail.com](mailto:dondouabiyi@gmail.com)>
+Date:   Fri Feb 28 12:32:27 2025 +0200
+```
