@@ -416,3 +416,40 @@ PS C:\Users\DONDOU\Desktop\git_advanced> git log --graph
 
 ```
 
+
+## Challenge 10:Understandinig Reflog (Bonus)
+
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git reflog
+204e706 (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: Challenge 9 done (visualozation commit history bonus)
+ddc7499 (origin/ft/branch, ft/branch) HEAD@{1}: merge ft/branch: Fast-forward
+4e1ebec (origin/challenge7, challenge7) HEAD@{2}: checkout: moving from ft/branch to main
+ddc7499 (origin/ft/branch, ft/branch) HEAD@{3}: commit: Challenge 8 done (cherry-picking commit)
+5ae1ea0 HEAD@{4}: commit (cherry-pick): Implementation of test5.md
+3e49827 HEAD@{5}: commit: Implementation of test5.md
+4e1ebec (origin/challenge7, challenge7) HEAD@{6}: checkout: moving from main to ft/branch
+4e1ebec (origin/challenge7, challenge7) HEAD@{7}: merge challenge7: Fast-forward
+168ab17 HEAD@{8}: checkout: moving from challenge7 to main
+4e1ebec (origin/challenge7, challenge7) HEAD@{9}: commit (merge): Merge branch 'main' of https://github.com/dondou21/git_advanced 
+into challenge7
+c3473fb HEAD@{10}: pull origin: Fast-forward
+a7d8fa1 HEAD@{11}: checkout: moving from main to challenge7
+168ab17 HEAD@{12}: commit: Pull request done successfully
+c41a62c HEAD@{13}: commit (merge): Merge branch 'main' of https://github.com/dondou21/git_advanced
+5574060 HEAD@{14}: commit: README.md added
+56cba11 HEAD@{15}: reset: moving to HEAD
+56cba11 HEAD@{16}: commit (amend): chore: Create third and fourth files
+c8af1a2 HEAD@{17}: reset: moving to c8af1a2
+172f779 HEAD@{18}: reset: moving to 172f779
+845fd05 HEAD@{19}: reset: moving to 845fd05
+1babaf5 HEAD@{20}: rebase (abort): returning to refs/heads/main
+5bc10b2 HEAD@{21}: rebase (start): checkout HEAD~2
+1babaf5 HEAD@{22}: reset: moving to HEAD
+1babaf5 HEAD@{23}: commit (amend): chore: Create third and fourth files
+c8af1a2 HEAD@{24}: commit (amend): chore: Create third and fourth files
+845fd05 HEAD@{25}: commit: chore: Create third and fourth files
+172f779 HEAD@{26}: commit: chore: Create another file
+5bc10b2 HEAD@{27}: commit: chore: Create initial file
+22a562e HEAD@{28}: clone: from https://github.com/dondou21/git_advanced.git
+
+```
