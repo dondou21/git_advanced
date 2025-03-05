@@ -121,6 +121,7 @@ pick fe110c2 Chore: Create third and fourth files
 
 
 ## challenge 5: Advanced Squashing
+## challenge 5: Advanced Squashing
 ```
 
 # Rebase 746ebef..859e61c onto 746ebef (4 commands)
