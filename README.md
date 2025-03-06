@@ -472,7 +472,20 @@ PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'Implemented core function
  create mode 100644 feature.txt
 PS C:\Users\DONDOU\Desktop\git_advanced> 
 ```
+## Challenge 3: Switching Back and Making More Changes
 
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout 
+main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\DONDOU\Desktop\git_advanced> git add .    
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'Updated project readme'
+[main 98beeb6] Updated project readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
 
 
  
