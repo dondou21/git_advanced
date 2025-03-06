@@ -546,5 +546,95 @@ PS C:\Users\DONDOU\Desktop\git_advanced>
 PS C:\Users\DONDOU\Desktop\git_advanced> git branch -m ft/new-branch-from-commit ft/improved-branch-name
 PS C:\Users\DONDOU\Desktop\git_advanced> 
 ```
+## Challenge 10: Checking Out Detached HEAD
+
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git log --oneline
+328b5c4 Merge pull request #4 from dondou21/ft/new-feature
+906eca5 Challenge 3 done
+98beeb6 Updated project readme
+b8be130 Implemented core functionality for new feature
+3a49883 New branch created and switch on it successfully
+844c0df Challenge 10 done (Understanding Reflog)
+ddc7499 (origin/ft/branch, ft/branch) Challenge 8 done (cherry-picking commit)3e49827 Implementation of test5.md
+4e1ebec (origin/challenge7, challenge7) Merge branch 'main' of https://github.com/dondou21/git_advanced into challenge7
+c3473fb Update README.md
+c41a62c Merge branch 'main' of https://github.com/dondou21/git_advanced       
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout -b ft/new-branch-from-commit 5898118
+Switched to a new branch 'ft/new-branch-from-commit'
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout main
+M       README.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\DONDOU\Desktop\git_advanced> git merge ft/new-branch-from-commit  
+Already up to date.
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'Branch created from a commit and merged'
+PS C:\Users\DONDOU\Desktop\git_advanced> git push 
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout ft/new-branch-from-commit
+PS C:\Users\DONDOU\Desktop\git_advanced> git rebase main
+Successfully rebased and updated refs/heads/ft/new-branch-from-commit.        
+PS C:\Users\DONDOU\Desktop\git_advanced> git branch -m ft/new-branch-from-commit ft/improved-branch-name
+PS C:\Users\DONDOU\Desktop\git_advanced> git add .
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'Branch Rebasing & Renaming Branches'
+[ft/improved-branch-name eb5987f] Branch Rebasing & Renaming Branches
+ 1 file changed, 14 insertions(+)
+PS C:\Users\DONDOU\Desktop\git_advanced> git add .
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'comiit to hash'        
+On branch ft/improved-branch-name
+nothing to commit, working tree clean
+PS C:\Users\DONDOU\Desktop\git_advanced> git add .                            
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'comiit to hash'        
+[ft/improved-branch-name 596ea20] comiit to hash
+ 1 file changed, 1 insertion(+)
+PS C:\Users\DONDOU\Desktop\git_advanced> git log --oneline
+596ea20 (HEAD -> ft/improved-branch-name) comiit to hash
+0f2f225 (origin/main, origin/HEAD, main) Branch created from a commit and merged
+5898118 challenges 4 & 5 done
+53d67f0 Merge branch 'main' of https://github.com/dondou21/git_advanced       
+328b5c4 Merge pull request #4 from dondou21/ft/new-feature
+906eca5 Challenge 3 done
+98beeb6 Updated project readme
+8fd8d36 challenge 2 done
+ddc7499 (origin/ft/branch, ft/branch) Challenge 8 done (cherry-picking commit)5ae1ea0 Implementation of test5.md
+3e49827 Implementation of test5.md
+4e1ebec (origin/challenge7, challenge7) Merge branch 'main' of https://github.PS C:\Users\DONDOU\Desktop\git_advanced> !
+>> 
+At line:1 char:2
++ !
++  ~
+Missing expression after unary operator '!'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecord  
+   Exception
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+ 
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout 596ea20
+You are in 'detached HEAD' state. You can look around, make experimental      
+changes and commit them, and you can discard any commits you make in this     
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may      
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false  
+
+HEAD is now at 596ea20 comiit to hash
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout -b branch-from-detached-head
+Switched to a new branch 'branch-from-detached-head
+```
 
   
