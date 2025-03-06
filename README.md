@@ -453,3 +453,39 @@ c8af1a2 HEAD@{24}: commit (amend): chore: Create third and fourth files
 22a562e HEAD@{28}: clone: from https://github.com/dondou21/git_advanced.git
 
 ```
+
+# Part2
+
+## Challenge 1: Feature Branch Creation
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout -b ft/new-feature
+Switched to a new branch 'ft/new-feature'
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
+## Challenge 2: Working on the  Feature Branch
+
+```
+S C:\Users\DONDOU\Desktop\git_advanced> git add .    
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'Implemented core functionality for new feature'      
+[ft/new-feature b8be130] Implemented core functionality for new feature
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
+## Challenge 3: Switching Back and Making More Changes
+
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout 
+main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\DONDOU\Desktop\git_advanced> git add .    
+PS C:\Users\DONDOU\Desktop\git_advanced> git commit -m'Updated project readme'
+[main 98beeb6] Updated project readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
+
+
+ 
