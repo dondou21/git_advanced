@@ -532,4 +532,18 @@ PS C:\Users\DONDOU\Desktop\git_advanced> git merge ft/new-branch-from-commit
 Already up to date.
 PS C:\Users\DONDOU\Desktop\git_advanced> 
 ```
+## Challenge 8: Branch Rebasing
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout ft/new-branch-from-commit
+Switched to branch 'ft/new-branch-from-commit'
+PS C:\Users\DONDOU\Desktop\git_advanced> git rebase main
+Successfully rebased and updated refs/heads/ft/new-branch-from-commit.        
+PS C:\Users\DONDOU\Desktop\git_advanced>
+```
+## Challenge 9: Renaming Branches
+
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git branch -m ft/new-branch-from-commit ft/improved-branch-name
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
 
