@@ -498,3 +498,38 @@ To https://github.com/dondou21/git_advanced.git
  - [deleted]         ft/new-feature
 PS C:\Users\DONDOU\Desktop\git_advanced> Delete the ft/new-feature branch once you're confident the changes are integrated into main
 ```
+
+## Challenge 6: Creating Branch from a Commit
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git log --oneline
+328b5c4 Merge pull request #4 from dondou21/ft/new-feature
+906eca5 Challenge 3 done
+98beeb6 Updated project readme
+8fd8d36 challenge 2 done
+b8be130 Implemented core functionality for new feature
+3a49883 New branch created and switch on it successfully
+844c0df Challenge 10 done (Understanding Reflog)
+204e706 Challenge 9 done (visualozation commit history bonus)
+ddc7499 (origin/ft/branch, ft/branch) Challenge 8 done (cherry-picking commit)5ae1ea0 Implementation of test5.md
+3e49827 Implementation of test5.md
+4e1ebec (origin/challenge7, challenge7) Merge branch 'main' of https://github.com/dondou21/git_advanced into challenge7
+c3473fb Update README.md
+168ab17 Pull request done successfully
+c41a62c Merge branch 'main' of https://github.com/dondou21/git_advanced       
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced>
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout -b ft/new-branch-from-commit 5898118
+Switched to a new branch 'ft/new-branch-from-commit'
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
+## Challenge 7: Branch Merging
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout main
+M       README.md
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\DONDOU\Desktop\git_advanced> git merge ft/new-branch-from-commit  
+Already up to date.
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
+
