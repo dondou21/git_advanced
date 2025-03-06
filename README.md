@@ -453,3 +453,16 @@ c8af1a2 HEAD@{24}: commit (amend): chore: Create third and fourth files
 22a562e HEAD@{28}: clone: from https://github.com/dondou21/git_advanced.git
 
 ```
+
+```
+# Part2
+
+## Challenge 1:
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git checkout -b ft/new-feature
+Switched to a new branch 'ft/new-feature'
+PS C:\Users\DONDOU\Desktop\git_advanced> 
+```
+
+
+ 
