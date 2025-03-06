@@ -488,4 +488,13 @@ PS C:\Users\DONDOU\Desktop\git_advanced>
 ```
 
 
- 
+## challenge 4 & 5: Local vs Remote Branches & Branch Deletion
+
+```
+PS C:\Users\DONDOU\Desktop\git_advanced> git branch -d ft/new-feature
+Deleted branch ft/new-feature (was 906eca5).
+PS C:\Users\DONDOU\Desktop\git_advanced> git push origin --delete ft/new-feature
+To https://github.com/dondou21/git_advanced.git
+ - [deleted]         ft/new-feature
+PS C:\Users\DONDOU\Desktop\git_advanced> Delete the ft/new-feature branch once you're confident the changes are integrated into main
+```
