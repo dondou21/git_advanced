@@ -64,3 +64,40 @@ Changes not staged for commit:
 gymicyerekezo@icyerekezos-iMac git_advanced % 
 
 ```
+
+## Challenge4; resolving Merge Conflicts with a Merge Tool
+
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git mergetool --tool-help
+'git mergetool --tool=<tool>' may be set to one of the following:
+                opendiff
+                vimdiff
+                vimdiff2
+                vimdiff3
+
+The following tools are valid, but not currently available:
+                araxis
+                bc
+                bc3
+                codecompare
+                deltawalker
+                diffmerge
+                diffuse
+                ecmerge
+                emerge
+                examdiff
+                gvimdiff
+                gvimdiff2
+                gvimdiff3
+                kdiff3
+                meld
+                p4merge
+                tkdiff
+                tortoisemerge
+                winmerge
+                xxdiff
+
+Some of the tools listed above only work in a windowed
+environment. If run in a terminal-only session, they will fail.
+
+```
