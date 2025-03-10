@@ -33,3 +33,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Dropped refs/stash@{0} (30de29bb41d45a37cf72701551804fea4f955c13)
 gymicyerekezo@icyerekezos-iMac git_advanced % 
 ```
+## Challenge3: Branch Merging Conflicts (Continued):
+
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git merge challenge7
+Auto-merging test3.md
+CONFLICT (content): Merge conflict in test3.md
+Automatic merge failed; fix conflicts and then commit the result.
+gymicyerekezo@icyerekezos-iMac git_advanced %  
+
+```
