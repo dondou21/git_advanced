@@ -42,4 +42,25 @@ CONFLICT (content): Merge conflict in test3.md
 Automatic merge failed; fix conflicts and then commit the result.
 gymicyerekezo@icyerekezos-iMac git_advanced %  
 
+
+gymicyerekezo@icyerekezos-iMac git_advanced % git status                                      
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        modified:   test3.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README_PART3.md
+
+gymicyerekezo@icyerekezos-iMac git_advanced % 
+
 ```
