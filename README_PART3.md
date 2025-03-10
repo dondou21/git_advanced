@@ -19,5 +19,17 @@ gymicyerekezo@icyerekezos-iMac git_advanced %
 ## Challenge2: Retrieviing Stashed Changes
 
 ```
+gymicyerekezo@icyerekezos-iMac git_advanced % git stash pop
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README_PART3.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (30de29bb41d45a37cf72701551804fea4f955c13)
+gymicyerekezo@icyerekezos-iMac git_advanced % 
 ```
