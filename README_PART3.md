@@ -173,3 +173,21 @@ To https://github.com/dondou21/git_advanced.git
 gymicyerekezo@icyerekezos-iMac git_advanced %
 
 ```
+## Challenge10: Pulling Changes form Remote Repositories
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git pull origin main 
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/dondou21/git_advanced
+ * branch            main       -> FETCH_HEAD
+   b0dc0f5..9c180fe  main       -> origin/main
+Updating b0dc0f5..9c180fe
+Fast-forward
+ README_PART3.md | 21 ++++++++++++++++++++-
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+gymicyerekezo@icyerekezos-iMac git_advanced % 
+
+```
