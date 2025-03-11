@@ -154,3 +154,22 @@ gymicyerekezo@icyerekezos-iMac git_advanced % git tag
 gymicyerekezo@icyerekezos-iMac git_advanced % 
 
 ```
+
+## Challenge9: Pushing Local Work into Remote Repositories
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git add .
+gymicyerekezo@icyerekezos-iMac git_advanced % git commit -m 'Challenge 8 done '
+[main b0dc0f5] Challenge 8 done
+ 1 file changed, 12 insertions(+)
+gymicyerekezo@icyerekezos-iMac git_advanced % git push 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 403 bytes | 403.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dondou21/git_advanced.git
+   2b7fc21..b0dc0f5  main -> main
+gymicyerekezo@icyerekezos-iMac git_advanced %
+
+```
