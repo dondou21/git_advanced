@@ -135,3 +135,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 gymicyerekezo@icyerekezos-iMac git_advanced % 
 
 ```
+
+## Challenge7: Working with Tags
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git tag v1.0
+gymicyerekezo@icyerekezos-iMac git_advanced % 
+
+```
