@@ -142,3 +142,15 @@ gymicyerekezo@icyerekezos-iMac git_advanced % git tag v1.0
 gymicyerekezo@icyerekezos-iMac git_advanced % 
 
 ```
+
+## Challenge8: Listing and Deleting Tags
+
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git tag        
+v1.0
+gymicyerekezo@icyerekezos-iMac git_advanced % git tag -d v1.0
+Deleted tag 'v1.0' (was 304e0c6)
+gymicyerekezo@icyerekezos-iMac git_advanced % git tag        
+gymicyerekezo@icyerekezos-iMac git_advanced % 
+
+```
