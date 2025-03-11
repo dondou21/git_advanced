@@ -65,7 +65,7 @@ gymicyerekezo@icyerekezos-iMac git_advanced %
 
 ```
 
-## Challenge4; resolving Merge Conflicts with a Merge Tool
+## Challenge4; Resolving Merge Conflicts with a Merge Tool
 
 ```
 gymicyerekezo@icyerekezos-iMac git_advanced % git mergetool --tool-help
@@ -99,5 +99,16 @@ The following tools are valid, but not currently available:
 
 Some of the tools listed above only work in a windowed
 environment. If run in a terminal-only session, they will fail.
+
+```
+
+
+## Challenge5: Understanding Detached HEAD State
+
+```
+gymicyerekezo@icyerekezos-iMac git_advanced % git checkout main 
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+gymicyerekezo@icyerekezos-iMac git_advanced % 
 
 ```
