@@ -1,6 +1,6 @@
 # Part 3
 
-## Challenge1: Stashing changes
+## Challenge1: Stashing Changes
 
 ```
 gymicyerekezo@icyerekezos-iMac git_advanced % git add .
