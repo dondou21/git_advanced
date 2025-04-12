@@ -36,7 +36,6 @@ $ git commit --amend -m "chore: Create third and fourth files"
 
 ```
 
-
 ## Challenge 2: Editing Commit History
 
 ```
