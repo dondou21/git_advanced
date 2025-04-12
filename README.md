@@ -1,6 +1,5 @@
 # git_advanced
 
-
 ## Missing File Fix
 
 ```
